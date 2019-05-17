@@ -5,8 +5,10 @@ Google's or Bing's translate api will serve us for translate a webpage.
 Download the file "translate.js" and insert it into your html.
 
 # API
-GoogleTranslate.translate(lang);
-GoogleTranslate.restore();
+
+1.  GoogleTranslate.translate(lang);
+
+2.  GoogleTranslate.restore();
 
 # language list
                 "sq": "阿尔巴尼亚语",
