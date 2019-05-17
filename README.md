@@ -17,7 +17,7 @@ Download the file "translate.js" and insert it into your html.
 <script>
 var TranslateDelegate={};
 TranslateDelegate.reportStatus = function(status){
-  console.log(status);
+   console.log(status);
 }
 GoogleTranslate.translate('zh-Hans');
 </script>
