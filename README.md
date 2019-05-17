@@ -10,6 +10,18 @@ Download the file "translate.js" and insert it into your html.
 
 2.  GoogleTranslate.restore();
 
+3.  TranslateDelegate.reportStatus(status){}
+
+# Example
+
+<script>
+var TranslateDelegate={};
+TranslateDelegate.reportStatus = function(status){
+  console.log(status);
+}
+GoogleTranslate.translate('zh-Hans');
+</script>
+
 # language list
                 "sq": "阿尔巴尼亚语",
                 "ar": "阿拉伯语",
