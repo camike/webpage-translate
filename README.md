@@ -1,7 +1,7 @@
 # webpage-translate
 Google's or Bing's translate api will serve us for translate a webpage.
 
-# Quick Start:
+# Quick Start
 Download the file "translate.js" and insert it into your html.
 
 # API
